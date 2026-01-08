@@ -13,7 +13,7 @@ body {
 }
 
 .esquerda1 {
-    grid-template-columns: 350px;
+    grid-template-columns: 390px;
     grid-template-rows: auto 100px;
 
 }
@@ -38,6 +38,7 @@ p.Principal {
 
 ul.esquerda1 {
     font-size: 20px;
+    line-height: 50px;
     color: pink;
     float: left;
     list-style-type: none;

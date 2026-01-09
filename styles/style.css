@@ -21,6 +21,19 @@ body {
 /* Aboutme page */
 
 ul.aboutme {
+    float: right;
+    padding: 10px 20px 20px 20px;
+    border: none;
+    width: auto;
+    color: white;
+}
+
+img.aboutme{
+    float: left;
+}
+
+.aboutme {
+    display: inline-grid;
     padding: 10px 20px 20px 20px;
     border: 6px solid black;
     width: auto;

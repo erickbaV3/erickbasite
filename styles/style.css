@@ -13,12 +13,7 @@ body {
     padding: 0px;
 }
 
-.Principal, .esquerda1, .direita1{
-    display: inline-grid;
-    grid-auto-columns: minmax(175px, auto);
-}
-
-/* Aboutme page */
+            /* Aboutme page */
 
 ul.aboutme {
     float: right;
@@ -31,11 +26,9 @@ ul.aboutme {
 
 img.aboutme{
     float: inline-start;
-/*     display: inline-grid; */
 }
 
 .aboutme {
-/*  display: inline-grid; */
     padding: 10px 20px 20px 20px;
     border: 6px solid black;
     width: auto;
@@ -53,7 +46,11 @@ img.madotsuki {
     height: auto;
 }
 
-/* Principal Page */
+#goback1 {
+    margin: 30px;
+}
+
+            /* Principal Page */
 
 h1.Title1 {
     font-size: 80px;
@@ -67,43 +64,57 @@ h1.abouttitle {
     text-align: center;
 }
 
-p.Principal{
-    text-align: center;
-    font-size: 35px;
+            /* Flexboxes to align */
+
+.box {
+    width: 100%;
+    display: flex;
+    row-gap: 10px;
+    column-gap: 2em;
+    border: 2px dotted rgb(96 139 168);
+    color: white;
 }
 
-div.Principal {
+.left1 {
+    flex-shrink: 1;
+    font-size: 20px;
+    line-height: 50px;
+    color: pink;
+    margin: 10px;
+}
+
+.second {
+    text-align: center;
+    flex-shrink: 2;
     font-size: 25px;
     color: white;
-    width: 75%;
-    margin: 0 auto;
     padding: 10px 20px 20px 20px;
     border: 5px solid black;
     background-color: #3d3846;
     text-align: left;
 }
 
-a{
-    color: pink;
-}
-
-ul.esquerda1 {
-    font-size: 20px;
-    line-height: 50px;
-    color: pink;
-    float: left;
-    margin: 10px;
-}
-
-ul.direita1 {
+.right1 {
+    text-align: right;
+    flex-shrink: 5;
     color: red;
-    float: right;
     margin: 10px;
     font-size: 20px;
     line-height: 50px;
+}
+
+p.second{
+    text-align: center;
+    font-size: 35px;
+    border: 0px;
 }
 
 img.esqueleto {
-    display: block;
     margin: -100px 1600px
+}
+
+
+
+a{
+    color: pink;
 }

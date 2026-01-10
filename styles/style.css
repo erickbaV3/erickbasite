@@ -24,20 +24,33 @@ ul.aboutme {
     float: right;
     padding: 10px 20px 20px 20px;
     border: none;
-    width: auto;
+    width: 1000px;
     color: white;
+    margin: 0px;
 }
 
 img.aboutme{
-    float: left;
+    float: inline-start;
+/*     display: inline-grid; */
 }
 
 .aboutme {
-    display: inline-grid;
+/*  display: inline-grid; */
     padding: 10px 20px 20px 20px;
     border: 6px solid black;
     width: auto;
     color: white;
+    background-color: #3d3846;
+}
+
+.madotsuki {
+    width:  720px;
+    height: 641px;
+}
+
+img.madotsuki {
+    width: 30%;
+    height: auto;
 }
 
 /* Principal Page */

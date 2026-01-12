@@ -1,0 +1,23 @@
+html {
+    background-color: #11111b;
+}
+
+ul.aboutme, h1.Title1, .aboutme, h1.abouttitle, .box, .second {
+    color: #cdd6f4;
+}
+
+a{
+    color: #eba0ac;
+}
+
+.left1 {
+    color: pink;
+}
+
+.right1 {
+    color: red;
+}
+
+.second, .aboutme {
+    background-color: #313244;
+}

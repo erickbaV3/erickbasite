@@ -103,13 +103,25 @@ img.ImagePfp {
 
 #GifMoe1 {
 	position: absolute;
-	float: right;
-	width: 6%;
+    right: 20%;
+    top: 2%;
+	width: 7%;
 	height: auto;
 }
 
 #aboutme {
     margin: 45px;
+}
+
+h1.aboutmetext {
+    text-align: left;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+ul.aboutmetext {
+    margin-left: 60px;
 }
 
 img.esqueleto {

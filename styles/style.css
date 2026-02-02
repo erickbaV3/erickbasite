@@ -101,6 +101,13 @@ img.ImagePfp {
     height: auto;
 }
 
+#GifMoe1 {
+	position: absolute;
+	float: right;
+	width: 6%;
+	height: auto;
+}
+
 #aboutme {
     margin: 45px;
 }

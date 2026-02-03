@@ -69,7 +69,13 @@ h1.abouttitle {
     flex-basis: 14%;
     font-size: 20px;
     line-height: 20px;
-    margin: 0px;
+}
+
+img.Image-common {
+    border: 5px solid black;
+    margin: 2%;
+    width: 60%;
+    height: auto;
 }
 
 .second {
@@ -98,19 +104,13 @@ h1.right1 {
 img.badge-right1 {
     width: 46%;	
     height: auto;
+    margin-left: 2px;
 }
 
 p.second{
     text-align: center;
     font-size: 35px;
     border: 0px;
-}
-
-img.ImagePfp {
-    border: 8px solid black;
-    margin: 2%;
-    width: 60%;
-    height: auto;
 }
 
 #GifMoe1 {
@@ -121,8 +121,8 @@ img.ImagePfp {
     height: auto;
 }
 
-#aboutme {
-    margin: 45px;
+#VSRG {
+    margin: 30px;
 }
 
 h1.aboutmetext {

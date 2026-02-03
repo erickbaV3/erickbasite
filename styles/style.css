@@ -81,11 +81,17 @@ h1.abouttitle {
     text-align: left;
 }
 
-.right1 {
-    flex-basis: 14%;
-    margin: 0px;
-    font-size: 20px;
+h1.right1 {
+    flex-basis: 15%;
+    margin-left: 0px;
+    font-size: 30px;
     line-height: 50px;
+    text-align: center;
+}
+
+img.badge-right1 {
+    width: 50%;
+    height: auto;
 }
 
 p.second{

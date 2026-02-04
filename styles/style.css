@@ -73,7 +73,13 @@ h1.abouttitle {
 .left1 {
     flex-basis: 14%;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 0px;
+    justify-content: center;
+    text-align:center;
+}
+
+#VSRGlink {
+    margin-top = 0;
 }
 
 img.Image-common {
@@ -125,10 +131,6 @@ p.second{
     top: 4%;
     width: 7%;
     height: auto;
-}
-
-#VSRG {
-    margin: 30px;
 }
 
 h1.aboutmetext {

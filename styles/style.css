@@ -12,30 +12,35 @@ body {
     padding: 0px;
 }
 
-            /* Aboutme page */
+            /* VSRG page */
 
-ul.aboutme {
-    float: right;
-    padding: 10px 20px 20px 20px;
-    border: none;
-    width: 1000px;
-    margin: 100px;
-}
-
-img.aboutme{
+img.VSRG{
     float: inline-start;
 }
 
-.aboutme {
+.VSRG {
     padding: 10px 20px 20px 20px;
     border: 6px solid black;
     width: auto;
+    display: flex;
+    row-gap: 4px;
+    column-gap: 1em;
+}
+
+.VSRGtext {
+    width: 100%;
+    margin-left: 10px;
+}
+
+#VSRGtitle {
+    text-align: center;
+    font-size: 35px;
 }
 
 img.madotsuki {
     width: 30%;
     height: auto;
-    border: 10px solid black;
+    border: 5px solid black;
 }
 
 #goback1 {

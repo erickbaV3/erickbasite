@@ -2,7 +2,7 @@ html {
     background-color: #626880;
 }
 
-ul.aboutme, h1.Title1, .aboutme, h1.abouttitle, .box, .second {
+ul.VSRG, h1.Title1, .VSRG, h1.abouttitle, .box, .second {
     color: #cdd6f4;
 }
 
@@ -18,6 +18,6 @@ a{
     color: #cdd6f4;
 }
 
-.second, .aboutme, .right1 {
+.second, .VSRG, .right1 {
     background-color: #313244;
 }

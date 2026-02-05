@@ -21,3 +21,8 @@ a{
 .second, .VSRG, .right1 {
     background-color: #313244;
 }
+
+#buttontext {
+    background-color: #cdd6f4;
+    color: #313244;
+}
